@@ -87,12 +87,12 @@ This is the overall model process.
 pip install -r requirements.txt
 ```
 
-## Make dataset
+## How to Use
+1. Prepare data
 ```python
 python make_data.py
 ```
-
-## Train
+2. Training
 ```python
 #1 Single Model Train
 python main.py --img_size=288 --exp_num=0
@@ -100,8 +100,7 @@ python main.py --img_size=288 --exp_num=0
 #2 Multiple training using shell
 sh multi_train.sh
 ```
-
-## Make a prediction with post-processing
+3. Inference & Post-processing
 ```python
 # Pretrained weight download from github
 os.makedirs('./results/', exist_ok=True)
