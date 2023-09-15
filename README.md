@@ -64,18 +64,6 @@ This is the overall model process.
     --> The thresholds of each case are decided from train dataset and applied the same on inference step.
 
 
-## Results(LogLoss)
-The base model used RegNety040, ResNet50, and EfficientNet_b3. Among them, regny040 recorded the highest score and selected the 5fold ensemble model as the final model.
-The logloss according to the presence or absence of post-processing is as follows:
-
-W/O Post-Processing : 0.107  
-
-W/ Post-Processing : 0.0578
-
-## Conclusion
-Even before participating in this competition, I participated in various compositions, including Daycon, focusing on applying models or training techniques.
-With this competition, it was a competition where I could feel the importance of analyzing and looking at the data once again.
-
 *** 
 
 
